@@ -176,6 +176,9 @@ group :production do
   # Unicorn production server
   gem 'unicorn'
 
+  # Unicorn worker killer
+  gem 'unicorn-worker-killer'
+
   # PostgreSQL production database
   gem 'pg'
 
@@ -184,4 +187,7 @@ group :production do
 
   # Notify developers of Exceptions in production
   gem 'exception_notification'
+
+  # Lograge for consistent logging
+  gem 'lograge'
 end
